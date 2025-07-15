@@ -56,17 +56,17 @@ const Index = () => {
             <div className="flex items-center space-x-3">
               <Icon name="Scale" size={32} className="text-slate-800" />
               <div>
-                <h1 className="text-2xl font-playfair font-bold text-slate-800">Анна Петрова</h1>
+                <h1 className="text-2xl font-playfair font-bold text-slate-800">Рылькова Анна Александровна</h1>
                 <p className="text-sm text-slate-600">Юрист по семейному праву</p>
               </div>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#services" className="text-slate-700 hover:text-slate-900 transition-colors">Услуги</a>
               <a href="#about" className="text-slate-700 hover:text-slate-900 transition-colors">О юристе</a>
-              <a href="#reviews" className="text-slate-700 hover:text-slate-900 transition-colors">Отзывы</a>
+
               <a href="#contact" className="text-slate-700 hover:text-slate-900 transition-colors">Контакты</a>
             </div>
-            <Button className="bg-red-600 hover:bg-red-700 text-white">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
               Записаться на прием
             </Button>
           </div>
@@ -79,14 +79,14 @@ const Index = () => {
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl font-playfair font-bold text-slate-900 mb-6 leading-tight">
               Профессиональная помощь
-              <span className="block text-red-600">в семейных вопросах</span>
+              <span className="block text-blue-600">в семейных вопросах</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
               Более 15 лет успешной практики в области семейного права. 
               Защищаю интересы семей с деликатностью и профессионализмом.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
                 <Icon name="Calendar" size={20} className="mr-2" />
                 Записаться на консультацию
               </Button>
@@ -114,8 +114,8 @@ const Index = () => {
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-gray-100">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
-                    <div className="p-3 bg-red-50 rounded-lg mr-4">
-                      <Icon name={service.icon} size={24} className="text-red-600" />
+                    <div className="p-3 bg-blue-50 rounded-lg mr-4">
+                      <Icon name={service.icon} size={24} className="text-blue-600" />
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-3">
@@ -139,37 +139,37 @@ const Index = () => {
               <h2 className="text-4xl font-playfair font-bold text-slate-900 mb-6">О юристе</h2>
               <div className="space-y-6 text-slate-600">
                 <p className="text-lg">
-                  Анна Петрова — опытный юрист с более чем 15-летним стажем в области семейного права. 
+                  Рылькова Анна Александровна — опытный юрист с более чем 15-летним стажем в области семейного права. 
                   Специализируется на сложных семейных спорах и защите интересов детей.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex items-center">
-                    <Icon name="Award" size={20} className="text-red-600 mr-3" />
+                    <Icon name="Award" size={20} className="text-blue-600 mr-3" />
                     <span>Более 500 выигранных дел</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Star" size={20} className="text-red-600 mr-3" />
+                    <Icon name="Star" size={20} className="text-blue-600 mr-3" />
                     <span>15+ лет опыта</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Users" size={20} className="text-red-600 mr-3" />
+                    <Icon name="Users" size={20} className="text-blue-600 mr-3" />
                     <span>Защита интересов семей</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="CheckCircle" size={20} className="text-red-600 mr-3" />
+                    <Icon name="CheckCircle" size={20} className="text-blue-600 mr-3" />
                     <span>Профессиональный подход</span>
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-4">
-                  <Badge variant="secondary" className="bg-red-50 text-red-700">МГУ им. Ломоносова</Badge>
-                  <Badge variant="secondary" className="bg-red-50 text-red-700">Адвокат</Badge>
-                  <Badge variant="secondary" className="bg-red-50 text-red-700">Член АП Москвы</Badge>
+                  <Badge variant="secondary" className="bg-blue-50 text-blue-700">МГУ им. Ломоносова</Badge>
+                  <Badge variant="secondary" className="bg-blue-50 text-blue-700">Адвокат</Badge>
+                  <Badge variant="secondary" className="bg-blue-50 text-blue-700">Член АП Москвы</Badge>
                 </div>
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-red-100 to-red-50 rounded-2xl p-8 text-center">
-                <Icon name="Scale" size={120} className="text-red-300 mx-auto mb-6" />
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 text-center">
+                <Icon name="Scale" size={120} className="text-blue-300 mx-auto mb-6" />
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Профессиональный подход</h3>
                 <p className="text-slate-600">
                   Каждое дело — это история семьи, которая требует деликатного и профессионального подхода
@@ -180,60 +180,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Reviews Section */}
-      <section id="reviews" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-playfair font-bold text-slate-900 mb-4">Отзывы клиентов</h2>
-            <p className="text-xl text-slate-600">Доверие — основа нашей работы</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((index) => (
-              <Card key={index} className="border-gray-100">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
-                    <div className="flex text-yellow-400">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <Icon key={star} name="Star" size={16} className="fill-current" />
-                      ))}
-                    </div>
-                  </div>
-                  <p className="text-slate-600 mb-4 italic">
-                    "Анна Викторовна помогла нам решить сложный вопрос с разделом имущества. 
-                    Профессиональный и деликатный подход к делу."
-                  </p>
-                  <div className="flex items-center">
-                    <div className="w-10 h-10 bg-slate-200 rounded-full mr-3"></div>
-                    <div>
-                      <p className="font-semibold text-slate-900">Мария К.</p>
-                      <p className="text-sm text-slate-500">Клиент</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          
-          <div className="text-center mt-12">
-            <p className="text-slate-600 mb-6">Читайте больше отзывов на других площадках:</p>
-            <div className="flex justify-center space-x-6">
-              <Button variant="outline" size="sm" className="border-slate-300">
-                <Icon name="Star" size={16} className="mr-2" />
-                Яндекс.Услуги
-              </Button>
-              <Button variant="outline" size="sm" className="border-slate-300">
-                <Icon name="Users" size={16} className="mr-2" />
-                Профи.ру
-              </Button>
-              <Button variant="outline" size="sm" className="border-slate-300">
-                <Icon name="MessageSquare" size={16} className="mr-2" />
-                2GIS
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-slate-50">
@@ -247,8 +194,8 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="p-3 bg-red-50 rounded-lg mr-4">
-                    <Icon name="Phone" size={24} className="text-red-600" />
+                  <div className="p-3 bg-blue-50 rounded-lg mr-4">
+                    <Icon name="Phone" size={24} className="text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Телефон</p>
@@ -257,8 +204,8 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-center">
-                  <div className="p-3 bg-red-50 rounded-lg mr-4">
-                    <Icon name="MessageCircle" size={24} className="text-red-600" />
+                  <div className="p-3 bg-blue-50 rounded-lg mr-4">
+                    <Icon name="MessageCircle" size={24} className="text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">WhatsApp</p>
@@ -267,8 +214,8 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-center">
-                  <div className="p-3 bg-red-50 rounded-lg mr-4">
-                    <Icon name="Send" size={24} className="text-red-600" />
+                  <div className="p-3 bg-blue-50 rounded-lg mr-4">
+                    <Icon name="Send" size={24} className="text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Telegram</p>
@@ -277,8 +224,8 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-center">
-                  <div className="p-3 bg-red-50 rounded-lg mr-4">
-                    <Icon name="MapPin" size={24} className="text-red-600" />
+                  <div className="p-3 bg-blue-50 rounded-lg mr-4">
+                    <Icon name="MapPin" size={24} className="text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Офис в Москве</p>
@@ -346,7 +293,7 @@ const Index = () => {
                     ></textarea>
                   </div>
                   
-                  <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
                     <Icon name="Calendar" size={20} className="mr-2" />
                     Записаться на консультацию
                   </Button>
@@ -363,9 +310,9 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <Icon name="Scale" size={28} className="text-red-400" />
+                <Icon name="Scale" size={28} className="text-blue-400" />
                 <div>
-                  <h3 className="text-xl font-playfair font-bold">Анна Петрова</h3>
+                  <h3 className="text-xl font-playfair font-bold">Рылькова Анна Александровна</h3>
                   <p className="text-slate-400 text-sm">Юрист по семейному праву</p>
                 </div>
               </div>
@@ -388,7 +335,7 @@ const Index = () => {
               <h4 className="font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 text-slate-400">
                 <p>+7 (495) 123-45-67</p>
-                <p>info@lawyer-petrov.ru</p>
+                <p>info@lawyer-rylkova.ru</p>
                 <p>ул. Тверская, 15, офис 301</p>
                 <p>Москва</p>
               </div>
